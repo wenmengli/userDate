@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 900px;
+    height:900px;
+    margin: 0 auto;
+}
+ul{
+
+    width: 500px;
+    height: auto;
+    border:solid 1px #cc9cbe;
+    margin: 10px auto;
+}
+.list{
+    list-style:none;
+
+}
+ul>li:last-child{
+    margin-bottom:0px;
+}
+.item{
+    width: 500px;
+    margin-bottom:10px ;
+    text-align: center;
+    border-bottom: solid 2px #ccc;
+}
+.summary{
+    height: 50px;
+}
+.detail{
+    height: 100px;
+    display: none;
+}
+.name{
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin-left:74px;
+}
+.head_img{
+    width:80px;
+}
+
+.img_box>img{
+    width:20px;
+    height:20px;
+    display: block;
+    float: right;
+    margin: 14px 10px;
+}
+.picture{
+    width: 200px;
+    float: left;
+}
+.describe{
+    width: 100px;
+    float: left;
+}
+.describe>span{
+    width: 100px;
+    display:block;
+    float: left;
+    margin-top: 10px;
+}
+#add_btn{
+    width: 80px;
+    height: 50px;
+}
+#add{
+    width:486px;
+    height:200px;
+    background: #5d8e99;
+    border-radius: 5px;
+    padding: 10px;
+    float: left;
+    display: none;
+
+}
+.add_container{
+    width: 700px;
+    margin: 10px auto;
+}
+.add_div{
+    width: 98px;
+    height:50px;
+    float: left;
+}
